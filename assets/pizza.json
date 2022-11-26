@@ -1,0 +1,127 @@
+[
+  {
+    "pizzaName": "Carbonara",
+    "pizzaImage": "assets/images/Carbonara.png",
+    "pizzaPrice": "12.50"
+  },
+  {
+    "pizzaName": "Cesar",
+    "pizzaImage": "assets/images/Cesar.png",
+    "pizzaPrice": "11.20"
+  },
+  {
+    "pizzaName": "Chicken BBQ",
+    "pizzaImage": "assets/images/ChickenBBQ.png",
+    "pizzaPrice": "13.40"
+  },
+  {
+    "pizzaName": "Chicken Fries",
+    "pizzaImage": "assets/images/ChickenFries.png",
+    "pizzaPrice": "14.10"
+  },
+  {
+    "pizzaName": "Chicken Ranch",
+    "pizzaImage": "assets/images/ChickenRanch.png",
+    "pizzaPrice": "14.50"
+  },
+  {
+    "pizzaName": "Mashrooms",
+    "pizzaImage": "assets/images/CremeMashrooms.png",
+    "pizzaPrice": "11.99"
+  },
+  {
+    "pizzaName": "Four Cheeses",
+    "pizzaImage": "assets/images/FourCheeses.png",
+    "pizzaPrice": "9.50"
+  },
+  {
+    "pizzaName": "Ham Mushrooms",
+    "pizzaImage": "assets/images/HamMashrooms.png",
+    "pizzaPrice": "13.45"
+  },
+  {
+    "pizzaName": "Ham Ranch",
+    "pizzaImage": "assets/images/HamRanch.png",
+    "pizzaPrice": "12.70"
+  },
+  {
+    "pizzaName": "Hawaii",
+    "pizzaImage": "assets/images/Hawaii.png",
+    "pizzaPrice": "12.00"
+  },
+  {
+    "pizzaName": "Margherita",
+    "pizzaImage": "assets/images/Margherita.png",
+    "pizzaPrice": "8.50"
+  },
+  {
+    "pizzaName": "Tomato",
+    "pizzaImage": "assets/images/MargheritaTomato.png",
+    "pizzaPrice": "9.50"
+  },
+  {
+    "pizzaName": "Meat",
+    "pizzaImage": "assets/images/Meat.png",
+    "pizzaPrice": "14.50"
+  },
+  {
+    "pizzaName": "Double Meat",
+    "pizzaImage": "assets/images/MeatDouble.png",
+    "pizzaPrice": "16.50"
+  },
+  {
+    "pizzaName": "Mexico",
+    "pizzaImage": "assets/images/Mexico.png",
+    "pizzaPrice": "12.50"
+  },
+  {
+    "pizzaName": "Pepperoni Green",
+    "pizzaImage": "assets/images/Pepperoni.png",
+    "pizzaPrice": "13.00"
+  },
+  {
+    "pizzaName": "Pepperoni",
+    "pizzaImage": "assets/images/PepperoniClassic.png",
+    "pizzaPrice": "13.50"
+  },
+  {
+    "pizzaName": "Pepperoni Hot",
+    "pizzaImage": "assets/images/PepperoniHot.png",
+    "pizzaPrice": "15.50"
+  },
+  {
+    "pizzaName": "Double Pepperoni",
+    "pizzaImage": "assets/images/PepperoniDouble.png",
+    "pizzaPrice": "15.50"
+  },
+  {
+    "pizzaName": "Prosciutto",
+    "pizzaImage": "assets/images/Prosciutto.png",
+    "pizzaPrice": "11.60"
+  },
+  {
+    "pizzaName": "Rukolla",
+    "pizzaImage": "assets/images/RukollaMushrooms.png",
+    "pizzaPrice": "11.10"
+  },
+  {
+    "pizzaName": "Suprime",
+    "pizzaImage": "assets/images/Suprime.png",
+    "pizzaPrice": "13.99"
+  },
+  {
+    "pizzaName": "VegeMix",
+    "pizzaImage": "assets/images/VegeMix.png",
+    "pizzaPrice": "9.00"
+  },
+  {
+    "pizzaName": "Vege Premium",
+    "pizzaImage": "assets/images/VegePremium.png",
+    "pizzaPrice": "9.50"
+  },
+  {
+    "pizzaName": "Village",
+    "pizzaImage": "assets/images/Village.png",
+    "pizzaPrice": "12.90"
+  }
+]
