@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pizza/constants.dart';
-import 'package:pizza/pizza_model.dart';
 import 'buttons.dart';
-import 'package:provider/provider.dart';
 
 enum ButtonSize {
   small,
@@ -35,7 +33,7 @@ class _PizzaItemTileState extends State<PizzaItemTile> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.only(left: 10, top: 4),
+      padding: const EdgeInsets.fromLTRB(2, 4, 2, 0),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: const BorderRadius.all(Radius.circular(20)),
@@ -52,7 +50,21 @@ class _PizzaItemTileState extends State<PizzaItemTile> {
         children: [
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 12.0),
-            child: Image.asset(widget.image),
+            child: Container(
+                margin: const EdgeInsets.all(4),
+                decoration: BoxDecoration(
+                    // color: Colors.orange,
+                  borderRadius: BorderRadius.all(const Radius.circular(70)),
+                  boxShadow: [
+                    BoxShadow(
+                      color: kBlack.withOpacity(0.2),
+                      spreadRadius: 3,
+                      blurRadius: 7,
+                      offset: const Offset(1, 2),
+                    )
+                  ]
+                ),
+                child: Image.asset(widget.image)),
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,

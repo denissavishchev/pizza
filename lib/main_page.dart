@@ -20,8 +20,19 @@ class MainPage extends StatelessWidget {
             builder: (context, value, child) {
               return Padding(
                 padding: const EdgeInsets.fromLTRB(18, 0, 0, 0),
-                child: ColoredBox(
-                  color: Colors.transparent,
+                child: Container(
+                  decoration: const BoxDecoration(
+                      color: Colors.transparent,
+                    boxShadow: [
+                      BoxShadow(
+                        color: kWhite,
+                        spreadRadius: 7,
+                        blurRadius: 10,
+                        offset: Offset(-8, 10),
+                      )
+                    ]
+                  ),
+
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -52,8 +63,6 @@ class MainPage extends StatelessWidget {
                               )),
                         ],
                       ),
-
-
                     ],
                   ),
                 ),
@@ -85,7 +94,7 @@ class MainPage extends StatelessWidget {
       Consumer<Pizza>(
           builder: (context, value, index) {
             return GridView.builder(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
+                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
                 itemCount: pizzas.length,
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,

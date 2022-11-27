@@ -26,9 +26,9 @@ class Pizza extends ChangeNotifier {
     cartItems.add(price);
     cartImages.add(image);
     cartNames.add(name);
-    print(cartItems);
-    print(cartImages);
-    print(cartNames);
+    // print(cartItems);
+    // print(cartImages);
+    // print(cartNames);
     notifyListeners();
   }
 
