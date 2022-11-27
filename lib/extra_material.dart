@@ -20,7 +20,7 @@ class ExtraMaterials extends StatelessWidget {
       child: Container(
         width: 150,
         height: 50,
-        color: kRed,
+        color: Colors.transparent,
         child: Row(
           children: [
             Container(

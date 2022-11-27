@@ -107,9 +107,29 @@ class CartPage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  ExtraMaterials(text: 'Pepsi', price: '2.5'),
-                  const SizedBox(width: 30,),
-                  ExtraMaterials(text: 'Sprite', price: '2.2'),
+                  SizedBox(
+                    width: 120,
+                    height: 350,
+                    child: ListView.builder(
+                      itemCount: value.drinks.length,
+                        itemBuilder: (context, index) {
+                        return ExtraMaterials(
+                            text: value.drinks[index][0],
+                            price: value.drinks[index][1]);
+                        }),
+                  ),
+                  const SizedBox(width: 50,),
+                  SizedBox(
+                    width: 120,
+                    height: 350,
+                    child: ListView.builder(
+                        itemCount: value.extras.length,
+                        itemBuilder: (context, index) {
+                          return ExtraMaterials(
+                              text: value.extras[index][0],
+                              price: value.extras[index][1]);
+                        }),
+                  ),
                 ],
               ),
             ],
