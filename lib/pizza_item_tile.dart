@@ -12,10 +12,11 @@ class PizzaItemTile extends StatefulWidget {
 
   final String name;
   final String image;
-  final String price;
+  String price;
   final Function()? onPressed;
 
-  const PizzaItemTile({Key? key,
+
+  PizzaItemTile({Key? key,
     required this.name,
     required this.image,
     required this.price,
@@ -31,6 +32,7 @@ class _PizzaItemTileState extends State<PizzaItemTile> {
   dynamic selectedSize = ButtonSize.small;
 
   @override
+
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.fromLTRB(2, 4, 2, 0),
@@ -95,6 +97,10 @@ class _PizzaItemTileState extends State<PizzaItemTile> {
                           onPress: () {
                             setState(() {
                               selectedSize = ButtonSize.large;
+                              // if (selectedSize == ButtonSize.large){
+                              //   widget.price = (double.parse(widget.price) * 3).toString();
+                              //   print(widget.price);
+                              // }
                             });
                           },),
                       ],
