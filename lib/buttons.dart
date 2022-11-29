@@ -129,4 +129,37 @@ class BasketButton extends StatelessWidget {
   }
 }
 
+class OrderButton extends StatelessWidget {
+  const OrderButton({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 200,
+      height: 50,
+      decoration: BoxDecoration(
+        color: kRed,
+        borderRadius: const BorderRadius.all(Radius.circular(20)),
+        border: Border.all(color: kWhite, width: 2),
+        boxShadow: [
+          BoxShadow(
+            color: kBlack.withOpacity(0.2),
+            spreadRadius: 2,
+            blurRadius: 5,
+            offset: const Offset(1, 2)
+          )
+        ]
+      ),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: [
+          Image.asset('assets/images/deliver.png'),
+          Text('Order', style: const TextStyle(color: kWhite, fontSize: 24, fontWeight: FontWeight.bold),)
+        ],
+      ),
+    );
+  }
+}
+
+
 

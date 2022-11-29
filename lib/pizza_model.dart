@@ -61,6 +61,7 @@ class Pizza extends ChangeNotifier {
     notifyListeners();
   }
 
+
   void removeItemFromCart(int index) {
     cartItems.removeAt(index);
     notifyListeners();

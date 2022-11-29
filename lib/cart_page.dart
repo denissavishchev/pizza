@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pizza/buttons.dart';
 import 'package:pizza/constants.dart';
 import 'package:pizza/extra_material.dart';
 import 'package:pizza/main_page.dart';
@@ -13,7 +14,7 @@ class CartPage extends StatelessWidget {
     return Consumer<Pizza>(
       builder: (context, value, child) {
         return Scaffold(
-          backgroundColor: kWhite.withOpacity(0.8),
+          backgroundColor: kWhite,
           body: Column(
             children: [
               const SizedBox(
@@ -45,7 +46,7 @@ class CartPage extends StatelessWidget {
                     SizedBox(
                       height: 250,
                       child: ListView.builder(
-                          itemCount: value.cartItems.length,
+                          itemCount: value.cartImages.length,
                           itemBuilder: (context, index) {
                             return Container(
                               margin: const EdgeInsets.symmetric(
@@ -108,7 +109,7 @@ class CartPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   SizedBox(
-                    width: 120,
+                    width: 150,
                     height: 350,
                     child: ListView.builder(
                       itemCount: value.drinks.length,
@@ -118,9 +119,9 @@ class CartPage extends StatelessWidget {
                             price: value.drinks[index][1]);
                         }),
                   ),
-                  const SizedBox(width: 50,),
+                  const SizedBox(width: 30,),
                   SizedBox(
-                    width: 120,
+                    width: 150,
                     height: 350,
                     child: ListView.builder(
                         itemCount: value.extras.length,
@@ -132,6 +133,8 @@ class CartPage extends StatelessWidget {
                   ),
                 ],
               ),
+              const SizedBox(height: 30,),
+              const OrderButton()
             ],
           ),
         );
