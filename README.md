@@ -1,16 +1,5 @@
-# pizza
+# Order your Pizza (in progress.........)
 
-A new Flutter project.
+<img width="430" alt="1" src="https://user-images.githubusercontent.com/77541683/204597387-f16da05a-466f-4872-828b-3f8c9638fd5d.png"><img width="423" alt="2" src="https://user-images.githubusercontent.com/77541683/204597423-02fe466e-3ed5-4620-a8ce-b914031c9cf3.png">
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
